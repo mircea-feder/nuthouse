@@ -1,0 +1,34 @@
+$primary-color: #2A7C6F;
+
+.nav-menu {
+  width: 100%;
+  background-color: $primary-color;
+  padding: 8px 16px 8px 16px;
+  color: white;
+  border-radius: 8px;
+  justify-content: center;
+
+  .button-wrapper {
+    display: flex;
+    gap: 16px;
+
+    @media (max-width: 600px) {
+      flex-direction: column;
+    }
+
+    .nav-menu-button {
+      padding: 4px;
+      border-radius: 4px;
+
+      i, h4 {
+        margin: 0;
+        padding: 0;
+      }
+
+      &:hover {
+        background-color: lighten($primary-color, 10%);
+        cursor: pointer;
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+<div class="gallery-page nhr-div">
+  <p-galleria
+    class="gallery"
+    [value]="images"
+    [responsiveOptions]="responsiveOptions"
+    [containerStyle]="{ 'max-width': '1024px', 'margin': 'auto' }"
+    [numVisible]="5">
+    <ng-template pTemplate="item" let-item>
+      <img [src]="item.itemImageSrc" style="width: 100%; height: 600px; object-fit: contain; background-color: #181818" />
+    </ng-template>
+    <ng-template pTemplate="thumbnail" let-item>
+      <div class="grid grid-nogutter justify-content-center">
+        <img [src]="item.thumbnailImageSrc" />
+      </div>
+    </ng-template>
+  </p-galleria>
+</div>

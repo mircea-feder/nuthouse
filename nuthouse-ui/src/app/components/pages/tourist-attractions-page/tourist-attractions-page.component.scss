@@ -1,0 +1,55 @@
+$primary-color: #2A7C6F;
+
+.tourist-attractions {
+  h1, h2, h3, h4, p {
+    margin: 0;
+    padding: 0;
+    color: $primary-color;
+    text-align: center;
+  }
+
+  .tourist-attraction {
+    display: flex;
+    width: 100%;
+
+    @media (max-width: 600px) {
+      flex-direction: column;
+    }
+
+    .text-container {
+      justify-content: center;
+      align-items: center;
+
+      border-radius: 8px 0 0 8px;
+
+      @media (max-width: 600px) {
+        border-radius: 8px 8px 0 0;
+      }
+
+      background-color: $primary-color;
+      padding: 8px 24px 8px 24px;
+
+      h3, p {
+        color: white;
+        text-align: center;
+      }
+
+      iframe {
+        margin-top: 16px;
+        border-radius: 8px;
+      }
+    }
+
+    img {
+      border-radius: 0 8px 8px 0;
+
+      @media (min-width: 600px) {
+        height: 450px;
+      }
+
+      @media (max-width: 600px) {
+        border-radius: 0 0 8px 8px;
+      }
+    }
+  }
+}

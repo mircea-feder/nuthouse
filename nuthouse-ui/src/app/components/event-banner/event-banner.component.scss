@@ -1,0 +1,11 @@
+$event-banner: #FFA500;
+
+.event-banner {
+  background-color: $event-banner;
+  justify-content: center;
+  h4 {
+    margin: 0;
+    padding: 0;
+    color: white;
+  }
+}

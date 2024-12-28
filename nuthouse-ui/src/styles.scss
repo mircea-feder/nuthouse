@@ -1,0 +1,57 @@
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+@import "primeicons/primeicons.css";
+
+$primary-color: #2A7C6F;
+$booking: #003B95;
+$travel-minit: #71246B;
+$phone: #27AE60;
+$event-banner: #FFA500;
+
+body {
+  margin: 0;
+  padding: 16px 32px 16px 32px;
+  @media (max-width: 600px) {
+    padding: 16px;
+  }
+  background-color: whitesmoke;
+  font-family: 'Roboto', sans-serif;
+}
+
+.nhr-div {
+  width: 100%;
+  box-shadow: rgba(99, 99, 99, 0.2) 0 2px 8px 0;
+  padding: 12px 32px 12px 32px;
+  @media (min-width: 600px) {
+    padding: 12px;
+  }
+  border-radius: 8px;
+}
+
+.nhr-flex-v-2, .nhr-flex-v-4, .nhr-flex-v-6, .nhr-flex-v-8, .nhr-flex-v-12, .nhr-flex-v-16, .nhr-flex-v-24, .nhr-flex-v-32 {
+  display: flex;
+  flex-direction: column;
+}
+
+.nhr-flex-h-2, .nhr-flex-h-4, .nhr-flex-h-6, .nhr-flex-h-8, .nhr-flex-h-12, .nhr-flex-h-16, .nhr-flex-h-24, .nhr-flex-h-32 {
+  display: flex;
+  flex-direction: row;
+}
+
+.nhr-flex-v-2 { gap: 2px; }
+.nhr-flex-v-4 { gap: 4px; }
+.nhr-flex-v-6 { gap: 6px; }
+.nhr-flex-v-8 { gap: 8px; }
+.nhr-flex-v-12 { gap: 12px; }
+.nhr-flex-v-16 { gap: 16px; }
+.nhr-flex-v-24 { gap: 24px; }
+.nhr-flex-v-32 { gap: 32px; }
+
+.nhr-flex-h-2 { gap: 2px; }
+.nhr-flex-h-4 { gap: 4px; }
+.nhr-flex-h-6 { gap: 6px; }
+.nhr-flex-h-8 { gap: 8px; }
+.nhr-flex-h-12 { gap: 12px; }
+.nhr-flex-h-16 { gap: 16px; }
+.nhr-flex-h-24 { gap: 24px; }
+.nhr-flex-h-32 { gap: 32px; }
