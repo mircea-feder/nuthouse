@@ -17,7 +17,6 @@ export class GalleryPageComponent implements OnInit {
     "IMG_2139.jpg",
     "IMG_2141.jpg",
     "IMG_2142.jpg",
-    "terasa1.jpg",
     "IMG_2145.jpg",
     "IMG_2153.jpg",
     "poza_panoramica_2.jpg",
