@@ -17,11 +17,12 @@ $primary-color: #2A7C6F;
     }
 
     img {
-      width: min(1000px, 100vw - 88px);
+      width: min(800px, 100vw - 88px);
       border-radius: 8px;
     }
 
     .location {
+      max-width: 800px;
       align-items: center;
       h1 {
         margin: 0 32px 0 32px;
@@ -34,7 +35,7 @@ $primary-color: #2A7C6F;
       }
       iframe {
         border-radius: 8px;
-        width: min(400px, 100vw - 88px);
+        width: min(350px, 100vw - 88px);
         height: 300px;
         border:0;
       }
