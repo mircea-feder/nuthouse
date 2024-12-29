@@ -25,6 +25,7 @@ export class GalleryPageComponent implements OnInit {
     "WhatsApp Image 2023-06-28 at 19.08.093.jpg",
     "WhatsApp Image 2023-06-28 at 19.08.104.jpg",
     "WhatsApp Image 2023-06-28 at 19.08.140.jpg",
+    "terasa1.jpg",
     "ceaun.jpg",
     "gazebo2.jpg",
     "bedroom-2.jpg",
